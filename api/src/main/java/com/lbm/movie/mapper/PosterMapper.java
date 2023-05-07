@@ -1,0 +1,9 @@
+package com.lbm.movie.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.lbm.movie.model.entity.Poster;
+import org.mapstruct.Mapper;
+
+@Mapper
+public interface PosterMapper extends BaseMapper<Poster> {
+}
